@@ -62,4 +62,4 @@ export class MyComponent {
 }
 ```
 
-For a full guide, read the (Medium article)[https://medium.com/@Lansana/angular-2-modals-a-different-approach-23c286585df4].
+For a full guide, read the [Medium article](https://medium.com/@Lansana/angular-2-modals-a-different-approach-23c286585df4).
