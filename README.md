@@ -54,7 +54,9 @@ export class MyComponent {
   constructor(private modalService: ModalService) {}
 
   openConfirmModal() {
-    this.modalService.create(ConfirmModalComponent);
+    this.modalService.create(ConfirmModalComponent, {
+      // Options go here... these will override class properties of ConfirmModalComponent
+    });
   }
 }
 ```
